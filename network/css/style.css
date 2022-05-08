@@ -482,8 +482,8 @@ display: none;
 #zoom .z {
 	background:#fff;
 	background-color:rgba(255,255,255,0.7);
-	width: 60px;
-	height: 60px;
+	width: 25px;
+	height: 25px;
 	cursor: pointer;
 	border:1px solid #ccc;
 	float:left;
@@ -494,16 +494,22 @@ display: none;
 #zoom .z[rel=center] {
 	background-image: url('../images/zoom_reset.png');
 	background-position:center;
+	background-size: 20px 20px;
+
 }
 
 #zoom .z[rel=in] {
 	background-image: url('../images/zoom_in.png');
-	background-position:center; 
+	background-position:center;
+	background-size: 20px 20px;
+
 }
 
 #zoom .z[rel=out] {
 	background-image: url('../images/zoom_out.png');
-	background-position:center; 
+	background-position:center;
+	background-size: 20px 20px;
+
 }
 
 .line {
