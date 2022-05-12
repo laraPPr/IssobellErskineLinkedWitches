@@ -247,7 +247,7 @@ padding: 0px 0 0 0;
 
 #mainpanel .col {
 width: 200px;
-padding: 18px 18px 18px 18px;
+padding: 10px 5px 5px 10px;
 margin: 0;
 
 }
@@ -445,6 +445,8 @@ background-position: -51px -13px;
 background: url('../images/info.png');
 background-repeat: no-repeat;
 margin-left: 5px;
+background-size: 5px 10px;
+
 }
 
 #copyright {
